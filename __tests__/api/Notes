@@ -1,0 +1,20 @@
+Notes For Frisby
+=================
+Frisby is a REST API testing framework built on node.js and Jasmine.
+
+Write Tests
+Frisby tests start with frisby.create('Test Title'), where Test Title is a description for this test.
+
+The tests are then followed by one of the HTTP methods (get, post, ..., etc). For example, .get(url) make a GET request to url.
+
+The tests can be chained with expects after the HTTP methods. For example, .expectStatus(200) tests if the response status is 200.
+
+The tests end with .toss() to generate the resulting Jasmine tests.
+
+Many built-in matchers can be used to test HTTP status codes, JSON keys/values, JSON value types and others. Matchers can be found here.
+
+
+FRISBY DOCUMENTATION
+====================
+Frisby makes REST API testing easy, fast, and fun. Frisby.js comes loaded with many built-in tools for the most common things you need to test for to ensure your REST API is working as it should, and returning the correct properties, values, and types.
+When you need something custom, Frisby.js also provides an easy way to customize and extend assertions to make your job easier, with less repetitive and tedious code.
