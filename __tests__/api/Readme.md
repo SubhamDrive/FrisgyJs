@@ -20,4 +20,13 @@
  //https://ian_lin.gitbooks.io/javascript-testing/content/chapter6.html
  //https://docs.frisbyjs.com/introduction/installation
  //http://blogs.quovantis.com/frisby-rest-api-automation-framework/
- //https://stackoverflow.com/questions/26841064/how-to-avoid-jasmine-suite-required-error-message-in-protractor/30687663
+ //https://stackoverflow.com/questions/26841064/how-to-avoid-jasmine-suite-required-error-message-in-protractor/30687663	
+//https://www.httpbin.org/#/Response_inspection
+
+
+
+
+
+
+
+
